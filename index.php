@@ -61,7 +61,7 @@ echo $x;
 */
 
 // ---------------------------------------------------------------------------------------------------------------------
-//                                                       Comparison Operators
+/*                                                       Comparison Operators
 $x = 5;
 $y = 10;
 
@@ -71,6 +71,92 @@ if($x === $y) {
 } else {
   echo "false";
 }
+ -----------------------------------------------------------------------------------------
+/*                                           increment/decrement
+$x = 10;
 
+echo $x++;
+echo $x--;
+-----------------------------------------------------------------------------------------
+/*                                            Logical Operators
+
+$x = 10;
+$y = 20;
+
+if($x == $y || 1 == 1){
+  echo "true";
+
+  if($x == $y xor 1 == 1){ // only one can be true
+    echo "true";
+
+$x = 2;
+if($x == 1) {
+  echo "true!";
+} elseif($x == 2) {
+  echo  "kinda true!";
+} else{
+echo "false";
+}
+*/
+/*
+ $x = "";
+
+switch($x){
+  case 1:
+    echo "The answer is 1";
+  break;
+
+  case "number":
+    echo "The answer is number";
+  break;
+
+  default:
+    echo "There is no answer";
+
+}
+ ------------------------------------------------------------------------
+//                                                    LOOPS
+//While Loops  KNOW THIS FOR LOCK IN SYSTEM DATABASES
+// Do While loops
+// For Loop
+// foreach Loop
+*/
+
+/*                                         While Loop
+$x = 0;
+
+while($x < 5){
+  echo "True <br>";
+   $x++;
+}  ------------------------------------------------------------------
+                                       Do While Loop
+$x = 1;
+do {
+  echo "Hello<br>";
+    $x++;
+}
+while ($x <= 5);
+-------------------------------------------------------------------------
+                                        For Loop
+
+
+for($x = 0; $x <= 10 ; $x++){
+    echo "Hello <br>";
+}
+-------------------------------------------------------------------------
+                                        ForEach Loop
+
+
+for($x = 0; $x <= 10 ; $x++){
+    echo "Hello <br>";
+}
+
+
+$array = array("Mike", "Anthony", "Rob", "Aaron");
+
+foreach ($array as $loopdata) {
+  echo "My Name is ".$loopdata."<br>";
+}
+*/
 
 ?>
